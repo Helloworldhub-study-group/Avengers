@@ -1,0 +1,84 @@
+/* Custom Variables starts */
+:root {
+  --primary-color: #ffa700;
+  --white-color: #ffffff;
+  --heading-color: #3a3a3a;
+  --grey-color1: #f9f9f9;
+  --grey-color2: #dddddd;
+  --border-color: #ffa70080;
+  --box-shadow1: 4px 6px 15px rgba(0, 0, 0, 0.15);
+  --box-shadow2: 3px -3px 20px rgba(0, 0, 0, 0.15);
+
+  /* Note: Use the custom variables like this
+        selector {
+            background-color: var(--primary-color);
+            box-shadow: var(--box-shadow1);
+        }
+
+        And you can add more
+   */
+}
+/* Custom Variables ends */
+
+/* General starts  */
+*,
+*::after,
+*::before {
+  /* universal selector */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; /* Set all anchor links Text decoration to none */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* General ends  */
+
+/* Header starts  */
+
+/* Header ends  */
+
+/* About us starts  */
+
+/* About us ends  */
+
+/* Featured Projects starts  */
+
+/* Featured Projects ends  */
+
+/* Workflow starts  */
+
+/* Workflow ends  */
+
+/* Services starts  */
+
+/* Services ends  */
+
+/* Testimonial starts  */
+
+/* Testimonial ends  */
+
+/* Company starts  */
+
+/* Comapny ends  */
+
+/* Blog starts  */
+
+/* Blog ends  */
+
+/* Company's Details starts  */
+
+/* Company's Details ends  */
+
+/* Contact starts  */
+
+/* Contact ends  */
+
+/* Footer starts  */
+
+/* Footer ends  */
