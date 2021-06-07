@@ -1,10 +1,21 @@
 # Avengers
 
-LM Construct
-Features 
+# Features
+HTML5, CSS3, JS
 
-HTML & CSS
+No Framework
 
-Figma link 
+Figma: https://www.figma.com/file/dyQQwghxeW3m6oHcJeQj7Q/lm-construct?node-id=1%3A2
 
-Team Lead should also add the required assets
+# Font
+Font-family: Mulish
+
+# Images
+
+Assets folder
+
+# Icons
+Any Icon of your choice (e.g Font Awesome, Boxicon, Flaicon, Ionicon) or Make use of the Icons from the Figma
+
+
+
