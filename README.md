@@ -8,6 +8,8 @@ No Framework
 
 Figma: https://www.figma.com/file/dyQQwghxeW3m6oHcJeQj7Q/lm-construct?node-id=1%3A2
 
+All css codes must be in the style.css file (Look for your own section and add your codes. Make sure you use unique class name)
+
 # Font
 Font-family: Mulish
 
