@@ -57,6 +57,117 @@ body {
 
 /* Services starts  */
 
+.services {
+    background: var(--white-color);
+    padding: 30px;
+}
+
+.service {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+.grid_content {
+    text-align: center;
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    margin: 0 auto;
+    padding: 12px 16px 18px 16px;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        display: flex;
+        -webkit-display: flex;
+        flex-direction: column;
+        margin: auto;
+    
+    }
+    
+    .grid_content {
+        margin: 12px 0;
+    }
+    
+    .service {
+        font-size: 24px;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+    
+    .icon > img {
+        width: 32%;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 770px) {
+    #container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 10px;
+        
+    }
+    
+    .service {
+        font-size: 26px;
+    }
+    
+    .title {
+        font-size: 22px;
+    }
+    
+    .icon > img {
+        width: 36%;
+    }
+    
+    .text {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 771px) and (max-width: 1200px) {
+    #container {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 10px;
+        
+    }
+    
+    .service {
+        font-size: 27px;
+    }
+    
+    .title {
+        font-size: 23px;
+    }
+    
+    .icon > img {
+        width: 40%;
+    }
+    
+    .text {
+        font-size: 19px;
+    }
+    
+}
+
 /* Services ends  */
 
 /* Testimonial starts  */
